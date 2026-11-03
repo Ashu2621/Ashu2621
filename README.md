@@ -39,7 +39,7 @@ I build production-grade backend systems and own them end to end—from API desi
 
 | Project | Engineering proof | Stack |
 |---|---|---|
-| **[Ops Copilot](https://github.com/Ashu2621/ops-copilot)** | Bounded on-call agent with typed tools, read-only SQL/RAG, human-approved refunds, HMAC webhooks, durable retries, and 101 tests. | TypeScript, LangGraph, MCP |
+| **[Ops Copilot](https://github.com/Ashu2621/ops-copilot)** | Bounded on-call agent with typed tools, read-only SQL/RAG, two-person refund approval, sandboxed SQL, HMAC webhooks, durable retries, and 138 tests. | TypeScript, LangGraph, MCP |
 | **[LMOps](https://github.com/Ashu2621/lmops)** | Decoder-only language model built from scratch with KV-cache parity, verified ONNX/TorchScript export, and observable serving. | Python, PyTorch, FastAPI |
 | **[Auction Core](https://github.com/Ashu2621/auction-core)** | Atomic bidding with row locks, idempotency, anti-sniping, proxy bids, and payment retry handling. | TypeScript, PostgreSQL, Redis |
 | **[GullakX](https://github.com/Ashu2621/gullakx-fintech-microservices)** | Double-entry wallet ledger with global lock ordering, reconciliation, transactional outbox, Kafka, and concurrency testing. | Java 21, Spring Boot, PostgreSQL |
