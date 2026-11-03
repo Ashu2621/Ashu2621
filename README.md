@@ -15,7 +15,7 @@
 
 I build production-grade backend systems and own them end to end—from API design and data integrity to deployment, observability, and incident-safe operations. I also build and evaluate tool-using LLM agents, with a strong preference for deterministic software whenever it is the better engineering choice.
 
-- 🔭 Currently building [Ops Copilot](https://github.com/Ashu2621/ops-copilot), a bounded agentic on-call assistant.
+- 🔭 Currently building production-shaped AI systems: [Ops Copilot](https://github.com/Ashu2621/ops-copilot), [Weather Advisory Bot](https://github.com/Ashu2621/weather-advisory-bot) and [LMOps](https://github.com/Ashu2621/lmops).
 - ⚙️ Focused on distributed systems, concurrency, idempotency, security, and observability.
 - 🤖 Working with tool calling, RAG, MCP, guardrails, evaluation, and human-in-the-loop approval.
 - 🎓 AI Evaluation Fellow at Handshake and postgraduate learner at Scaler Neovarsity / Woolf.
@@ -39,8 +39,9 @@ I build production-grade backend systems and own them end to end—from API desi
 
 | Project | Engineering proof | Stack |
 |---|---|---|
-| **[Ops Copilot](https://github.com/Ashu2621/ops-copilot)** | Bounded on-call agent with typed tools, read-only SQL/RAG, two-person refund approval, sandboxed SQL, HMAC webhooks, durable retries, and 138 tests. | TypeScript, LangGraph, MCP |
-| **[LMOps](https://github.com/Ashu2621/lmops)** | Decoder-only language model built from scratch with KV-cache parity, verified ONNX/TorchScript export, and observable serving. | Python, PyTorch, FastAPI |
+| **[Ops Copilot](https://github.com/Ashu2621/ops-copilot)** | On-call agent with typed tools, sandboxed read-only SQL, two-person refund approval with crash-safe idempotent refunds, PII redaction, HMAC webhooks, 138 tests and 16 scored evals. | TypeScript, LangGraph, MCP |
+| **[Weather Advisory Bot](https://github.com/Ashu2621/weather-advisory-bot)** | Agent that answers only from written safety policies, with a guard against invented numbers; runs as multiple replicas on Postgres and Redis, load-tested, with Prometheus alerts and nightly live evals against the [live demo](https://weather-advisory-bot-5evh.onrender.com). | Python, LangGraph, FastAPI |
+| **[LMOps](https://github.com/Ashu2621/lmops)** | Decoder-only language model built from scratch with KV-cache parity, verified ONNX/TorchScript export, and continuous-batching serving (6.9× throughput at 16 concurrent requests), 149 tests. | Python, PyTorch, FastAPI |
 | **[Auction Core](https://github.com/Ashu2621/auction-core)** | Atomic bidding with row locks, idempotency, anti-sniping, proxy bids, and payment retry handling. | TypeScript, PostgreSQL, Redis |
 | **[GullakX](https://github.com/Ashu2621/gullakx-fintech-microservices)** | Double-entry wallet ledger with global lock ordering, reconciliation, transactional outbox, Kafka, and concurrency testing. | Java 21, Spring Boot, PostgreSQL |
 
