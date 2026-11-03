@@ -39,9 +39,9 @@ I build production-grade backend systems and own them end to end—from API desi
 
 | Project | Engineering proof | Stack |
 |---|---|---|
-| **[Ops Copilot](https://github.com/Ashu2621/ops-copilot)** | On-call agent with typed tools, sandboxed read-only SQL, two-person refund approval with crash-safe idempotent refunds, PII redaction, HMAC webhooks, 138 tests and 16 scored evals. | TypeScript, LangGraph, MCP |
+| **[Ops Copilot](https://github.com/Ashu2621/ops-copilot)** | On-call agent with typed tools, sandboxed read-only SQL, two-person refund approval with crash-safe idempotent refunds, PII redaction, HMAC webhooks, 143 tests and 16 scored evals. [Live demo](https://ops-copilot-26od.onrender.com). | TypeScript, LangGraph, MCP |
 | **[Weather Advisory Bot](https://github.com/Ashu2621/weather-advisory-bot)** | Agent that answers only from written safety policies, with a guard against invented numbers; runs as multiple replicas on Postgres and Redis, load-tested, with Prometheus alerts and nightly live evals against the [live demo](https://weather-advisory-bot-5evh.onrender.com). | Python, LangGraph, FastAPI |
-| **[LMOps](https://github.com/Ashu2621/lmops)** | Decoder-only language model built from scratch with KV-cache parity, verified ONNX/TorchScript export, and continuous-batching serving (6.9× throughput at 16 concurrent requests), 149 tests. | Python, PyTorch, FastAPI |
+| **[LMOps](https://github.com/Ashu2621/lmops)** | Decoder-only language model built from scratch with KV-cache parity, verified ONNX/TorchScript export, and continuous-batching serving (6.9× throughput at 16 concurrent requests), 150 tests. [Live API](https://lmops-rc2c.onrender.com/docs). | Python, PyTorch, FastAPI |
 | **[Auction Core](https://github.com/Ashu2621/auction-core)** | Atomic bidding with row locks, idempotency, anti-sniping, proxy bids, and payment retry handling. | TypeScript, PostgreSQL, Redis |
 | **[GullakX](https://github.com/Ashu2621/gullakx-fintech-microservices)** | Double-entry wallet ledger with global lock ordering, reconciliation, transactional outbox, Kafka, and concurrency testing. | Java 21, Spring Boot, PostgreSQL |
 
